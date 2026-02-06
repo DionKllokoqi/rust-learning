@@ -48,7 +48,7 @@ fn statements_and_expressions() {
     // Function definitions are also statements.
 
     // Statements do not return values, therefore, you can't assign a let statement to another variable, like below:
-    let x = (let y = 6); // The let y = 6 statement does not return a value, so there isn’t anything for x to bind to. In other lanuages, like C or Ruby, an assignment returns the value of the assignment, so you can write, e.g., x = y = 6.
+    let x = (let y = 6); // The let y = 6 statement does not return a value, so there isn’t anything for x to bind to. In other languages, like C or Ruby, an assignment returns the value of the assignment, so you can write, e.g., x = y = 6.
 
     // Expressions evaluate to a value, e.g., 5 + 6 evaluates to 11.
 
