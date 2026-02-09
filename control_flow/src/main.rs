@@ -25,4 +25,9 @@ fn main() {
 
     // if we assign a value based on an if/else expression, the results from each arm of the code
     // need to be the same type. The below gives a compilation error.
+    // let condition = true;
+    //
+    //     let number = if condition { 5 } else { "six" };
+    //
+    //     println!("The value of number is: {number}");
 }
