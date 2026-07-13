@@ -52,7 +52,7 @@ fn statements_and_expressions() {
 
     // Expressions evaluate to a value, e.g., 5 + 6 evaluates to 11.
 
-    // Calling a function is an expressions. Calling a macro is an expression.A new scope block created with curly brackets is an expression.
+    // Calling a function is an expressions. Calling a macro is an expression. A new scope block created with curly brackets is an expression.
 
     // This expression evaluates to 4, which is assigned to y. Note that the x + 1 line doesn’t have a semicolon at the end. Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, and it will then not return a value.
     let y = {
